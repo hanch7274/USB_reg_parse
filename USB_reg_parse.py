@@ -1,3 +1,6 @@
+#usb.ids.txt => http://www.linux-usb.org/usb.ids
+#please modify line 25
+
 import os
 import sys
 import winreg
