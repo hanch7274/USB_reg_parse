@@ -7,8 +7,6 @@ import winreg
 
 usbstor = 'SYSTEM\\ControlSet001\\Enum\\USB\\'
 varReg = winreg.ConnectRegistry(None, winreg.HKEY_LOCAL_MACHINE)
-#varKey = winreg.OpenKey(varReg,usbstor)
-key = ''
 
 def get_usbList():
     dev_num = 0
